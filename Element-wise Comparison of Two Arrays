@@ -1,0 +1,9 @@
+x = np.array([1, 2, 3, 4])
+y = np.array([2, 2, 2, 2])
+
+print(np.greater(x, y))       
+print(np.greater_equal(x, y)) 
+print(np.less(x, y))          
+print(np.less_equal(x, y))    
+print(np.equal(x, y))         
+print(np.allclose(x, y))     
